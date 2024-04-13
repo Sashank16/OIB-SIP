@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: wheat;
+  }
+  
+  header {
+    background-color: pink;
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+  
+  section {
+    background-color: #b0e6c8;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  section h2 {
+    color: #333;
+  }
+  
+  footer {
+    background-color: pink;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  /* Gallery Styles */
+  #gallery {
+    text-align: center;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+  }
+  
+  .image-container img {
+    width: 400px;
+    margin: 0 10px;
+    border-radius: 5px;
+  }
+  
