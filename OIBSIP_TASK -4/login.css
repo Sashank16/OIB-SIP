@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    /*box-size:border-box;*/
+}
+body {
+    background-image: url("login.jpeg");
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+h1{
+    text-align: center;
+    color: whitesmoke ;
+
+}
+
+#container {
+    width: 488px;
+    margin: 0 auto;
+    margin-top: 150px;
+    height: 100%;
+}
+.tabs {
+    display: table-cell;
+    width: 45%;
+    padding: 10px;
+    float: left;
+    text-align: center;
+    vertical-align: middle;
+    border: 2px solid whitesmoke;
+    border-bottom: 0px;
+    position: relative;
+    font-size: 2.3em;
+    color: white;
+    
+}
+.tabs:hover, p{
+    cursor: pointer;
+}
+.tabs:hover{
+    background-color: darkblue;
+}
+
+
+#cont {
+    width: 100%;
+    height: 380px;
+    border: 2px solid whitesmoke;
+}
+
+input{
+    display: block;
+    width: 300px;
+    margin: 10px 13px;
+    padding: 10px;
+    font-size: 1.9em;
+    color: rgba(6, 8, 8, 0.82);
+    outline: 2px solid black;
+}
+
+input[type="submit"] {
+    width: 280px;
+    color: black;
+    background-color: blue;
+    margin-bottom: 0;
+}
+
+#clear {
+    clear: both;
+}
+
+.comm {
+    position: absolute;
+    visibility: hidden;
+}
+#login {
+    visibility: visible;
+}
+
+h3 {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 10px 15px;
+    font-size: 1.9em;
+    color: whitesmoke;
+}
+
+#forgot h3 {
+    display: block;
+    margin-top: 30px;
+    text-align: center;
+}
+
+#forgot div {
+    margin-top: 30px;
+}
+p {
+    padding: 10px 15px;
+    font-size: 1.3em;
+    color: #ffffff;
+}
+/*#footer {
+    width: 300px;
+    margin: 10px auto;
+    text-align: center;
+    color: rgba(9, 118, 155, 0.91);
+
+}*/
